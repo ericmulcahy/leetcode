@@ -5,6 +5,13 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+ * My first go at this had a similar approach to the optimal solution, but missed the key idea
+ * of sorting the input word to use as a key in the map. Instead I used a heavy weight map
+ * comparison technique.
+ * 
+ * Doing it again with another approach.
+ */
 public class GroupAnagrams {
     public static void main(String[] args) {
         //Input: strs = ["eat","tea","tan","ate","nat","bat"]
